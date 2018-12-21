@@ -22,4 +22,17 @@
   	</dependency>
   </dependencies>
   
+  <reporting>
+    <plugin>
+      <groupId>com.soebes.maven.plugins</groupId>
+      <artifactId>doxygen-maven-plugin</artifactId>
+      <version>1.1.0</version>
+      <configuration>
+        <haveDot>false</haveDot>
+        <quiet>false</quiet>
+        <projectName>This is a Test Project (basicReportTest)</projectName>
+      </configuration>
+    </plugin>
+  </reporting>  
+
 </project>
